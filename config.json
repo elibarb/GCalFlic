@@ -1,0 +1,25 @@
+{   
+        "pluginName": "GCalFlic",
+        "pluginDescription": "Google Calendar time log",
+        "pluginReadMore": "Runs a go binary that adds a start/stop event to my google calendar.",
+        "protocolVersion": 1,
+        "actions":
+        [
+            {
+                "actionName": "Leave Home",
+                "fileName": "LeaveHomeFlic",
+            },
+            {
+                "actionName": "Arrive Home",
+                "fileName": "ArriveHomeFlic",
+            },
+            {
+                "actionName": "Start Work",
+                "fileName": "StartWorkFlic",
+            },
+            {
+                "actionName": "Stop Work",
+                "fileName": "StopWorkFlic",
+            }
+        ]
+}
