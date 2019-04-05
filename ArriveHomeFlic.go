@@ -99,7 +99,7 @@ func main() {
 	//events, err := srv.Events.List("primary").ShowDeleted(false).
 	//		SingleEvents(true).TimeMin(t).MaxResults(10).OrderBy("startTime").Do()
 	event := &calendar.Event{
-		Summary: "Leave Home",
+		Summary: "Arrive Home",
 		Location: "2130 North Farm Road 45, Bois D'Arc, MO 65612",
 		Description: "Within a 5 minute window of when I left home this morning.",
 		Start: &calendar.EventDateTime{
