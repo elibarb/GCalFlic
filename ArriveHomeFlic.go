@@ -101,7 +101,7 @@ func main() {
 	event := &calendar.Event{
 		Summary: "Arrive Home",
 		Location: "2130 North Farm Road 45, Bois D'Arc, MO 65612",
-		Description: "Within a 5 minute window of when I left home this morning.",
+		Description: "Approximate 1 minute window of when I arrive home",
 		Start: &calendar.EventDateTime{
 		DateTime: time.Now().Format(time.RFC3339),
 		TimeZone: "America/Chicago",

@@ -106,7 +106,7 @@ func main() {
 		TimeZone: "America/Chicago",
 		},
 		End: &calendar.EventDateTime{
-		DateTime: time.Now().Local().Add(time.Minute * time.Duration(3)).Format(time.RFC3339),
+		DateTime: time.Now().Local().Add(time.Minute * time.Duration(1)).Format(time.RFC3339),
 		TimeZone: "America/Chicago",
 		},
 		Transparency: "transparent",
